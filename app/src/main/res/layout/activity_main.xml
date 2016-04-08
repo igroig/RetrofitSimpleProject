@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="match_parent"
-    android:layout_width="match_parent"/>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:weightSum="5"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:id="@+id/rvRepos"
+        android:background="#CC0000"
+        android:layout_weight="1"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+ />
+</LinearLayout>
